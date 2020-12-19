@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+
+<body></body>
+    <nav role="main">
+        <li><a href="#">Home</a></li>
+        <li><a href="#aboutme">About me</a></li>
+        <li><a href="#a1">Projects</a></li>
+        <li><a href="#section">Contact</a></li>
+        <li> <a onclick="window.location.href = 'https://drive.google.com/file/d/1LsLYvUz-bk-UxwEsXQHLKxF4-bhP0-Bd/view?usp=sharing';"> Download CV</a></li>li>
+
+    </nav>
+
+    <nav role="sub" id="mySidenav" class="sidenav">
+        <a id="about" onclick="window.location.href = 'https://www.facebook.com/profile.php?id=100004212825020';">
+            <img class="logo" src="facebook.png" />Facebook</a>
+        <a id="blog" onclick="window.location.href = 'https://twitter.com/ShubhanshuDev';"><img class="logo" src="twiter.png" />Twiter</a>
+        <a id="projects" onclick="window.location.href = 'https://www.linkedin.com/in/shubhanshu-dev-puri-17b3b1179';"><img class="logo" src="linkedin.png" />Linkedin</a>
+        <a id="contact" onclick="window.location.href = 'https://github.com/shubhanshu99';"> <img src="git.png" class="logo">GitHub</a>
+    </nav>
+
+    <div class="img">
+
+        <img src="sdp.jpg" class="pro" />
+
+
+        <div>
+            <h1>SHUBHANSHU DEV PURI</h1><br>
+            <b>Computer Science Engineering Student</b></div>
+    </div>
+
+    <div id="aboutme" class="panel">
+    
+
+        <main class="h2">
+            <h2 class="h2">To contribute with my programming <br>and logical skills and provide simple<br> and effective solution to the organization.</h2>
+        </main>
+<form class='trans'>
+        <div class="container1" >
+            <h1>Qualifications:</h1><br><br>
+            <p>10th(CBSE): 7.4 (CGPA) </p>
+            <a>Oxford international public school,Jaipur </a><br><br>
+            <p>12th(CBSE): 56%</p>
+            <a>Oxford international public school,Jaipur </a><br><br>
+            <p>B.Tech.: 5.6 (CGPA)</p>
+            <a>JK Lakshmipat University,Jaipur</a>
+        </div>
+        <div class="container2">
+            <h1>Skills:</h1><br><br>
+            <p>C++</p>
+            <p>JAVA</p>
+            <p>PYTHON</p>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JAVASCRIPT</p>
+            <p>C</p>
+            <p>UNREAL 4</p>
+            <p>SQL</p>
+        </div>
+        <div class="container3">
+            <h1>Interest:</h1><br><br>
+            <p>WEB DEVELOPMENT</p><br>
+            <p>GAME DEVELOPMENT</p><br>
+            <p>APPLICATION DEVELOPMENT</p><br>
+            <p>VIRTUAL RIALITY</p>
+        </div>
+</form>
+
+
+
+
+
+     
+    </div>
+    
+    <div id=a1>
+        <div class="flex-container">
+            <button class="tablink" onclick="openPage('p1', this, 'grey')" id="defaultOpen">project1</button>
+            <button class="tablink" onclick="openPage('p2', this, 'grey')">project2</button>
+            <button class="tablink" onclick="openPage('p3', this, 'grey')">project3</button>
+            <button class="tablink" onclick="openPage('p4', this, 'grey')">project4</button>
+            <button class="tablink" onclick="openPage('p5', this, 'grey')">project5</button>
+
+
+            <div id="p2" class="tabcontent">
+                <h3>Online Quiz</h3><br>
+                <p>Developed an online quiz which takes student details and lets the user perform a quiz and also calculates and displays the result at the end.made by using Jframes.
+                </p>
+            </div>
+
+            <div id="p3" class="tabcontent">
+                <h3>Stock Price Analysis and forecasting</h3><br>
+                <p>took the data of a Ashoka Leyland from past year i.e. from 1st April,2017 to 31st March 2018.The following data to predict the missing data in the record using the numerical method i.e. interpolation.</p>
+            </div>
+
+            <div id="p4" class="tabcontent">
+                <h3>Mail casting website</h3><br>
+                <p>Made a basic website that can receive and send mail over local tomcat server, made using basic JSP,HTML,CSS. And can store records of login data by using SQL connectivity with java.</p>
+            </div>
+            <div id="p1" class="tabcontent">
+                <h3>Basic steering controller</h3><br>
+                <p>Made a steering wheel game controller for pc using Arduino and mouse optical sensor to simulate racing games.</p>
+            </div>
+            <div id="p5" class="tabcontent">
+                <h3>Android Application for PHED Rajasthan</h3><br>
+                <p>build an android application for public health engineering department rajasthan. which will help customer as well as department user to manage there records and pay water bills.</p>
+            </div>
+
+        </div>
+    </div>
+    <div id="section" class="panel">
+        <div>
+            <center><br>
+                <h1>Contect Us:
+                </h1><br><br>
+                <h2>+91 9079733742<br> shubhanshudevpuri@jklu.edu.in
+
+                </h2>
+            </center><br><br><br>
+            <center>
+                <form class="sub">
+                    subject: <input type="text" name="fname"><br><br> content: <input type="text" name="lname"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </center>
+
+
+        </div>
+
+</body>
+
+<script>
+    function openPage(pageName, elmnt, color) {
+        // Hide all elements with class="tabcontent" by default */
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Remove the background color of all tablinks/buttons
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].style.backgroundColor = "";
+        }
+
+        // Show the specific tab content
+        document.getElementById(pageName).style.display = "block";
+
+        // Add the specific color to the button used to open the tab content
+        elmnt.style.backgroundColor = color;
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+</script>
+
+</html>

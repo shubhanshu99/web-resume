@@ -1,0 +1,248 @@
+        * {
+            scroll-behavior: smooth;
+            margin: 0px;
+        }
+        
+        .img {
+            display: flex;
+            height: 800px;
+            background-size: cover;
+            background-attachment: fixed;
+            background-image: url(back1.jpg);
+            filter: grayscale(20%);
+            color: white;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        #a1 {
+            display: flex;
+            height: 800px;
+            top: 50px;
+            background-size: cover;
+            background-attachment: fixed;
+            background-image: url(back.jpg);
+            filter: grayscale(20%);
+            color: white;
+            text-align: center;
+        }
+
+
+        
+        .panel {
+            display: flex;
+            height: 500px;
+            color: white;
+            background-image: url(back3.jpg);
+            filter: grayscale(20%);
+            color: white;
+            justify-content: center;
+
+        }
+        
+        .pro {
+            display: flex;
+            height: 200px;
+            border-radius: 60%;
+            border-color: rgba(0, 0, 0, 0.5);
+        }
+        /*nav bar*/
+        
+        nav[role="main"] {
+            list-style-type: none;
+            position: fixed;
+            width: 100%;
+            margin-top: 50px;
+            height: 50px;
+            background-color: rgba(20, 20, 20, 0.4);
+            z-index: 99;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: rgba(40, 40, 40, 0.6);
+        }
+        /*text*/
+        
+        b {
+            font-size: 20px;
+            padding: 20px;
+        }
+        /*side bar*/
+        
+        nav[role="sub"] {
+            list-style-type: none;
+            position: fixed;
+            width: 100%;
+            height: 50px;
+            background-color: rgba(20, 20, 20, 0.4);
+            z-index: 99;
+        }
+        
+        #mySidenav a {
+            position: fixed;
+            right: -92px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 120px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+            text-align: right;
+            radius: 20px;
+        }
+        
+        .side {
+            background-color:
+        }
+        
+        #mySidenav a:hover {
+            right: 0;
+        }
+        
+        #about {
+            top: 200px;
+            background-color: rgba(20, 20, 20, 0.4);
+        }
+        
+        #blog {
+            top: 260px;
+            background-color: rgba(20, 20, 20, 0.4);
+            F3;
+        }
+        
+        #projects {
+            top: 320px;
+            background-color: rgba(20, 20, 20, 0.4);
+        }
+        
+        #contact {
+            top: 380px;
+            background-color: rgba(20, 20, 20, 0.4);
+        }
+        /*logo*/
+        
+        .logo {
+            display: flex;
+            height: 25px;
+            align-items: center;
+            justify-content: center;
+        }
+        /*container*/
+        
+        .flex-container {
+            margin-left: 400px;
+            margin-top: 50px;
+            margin-right: 70px;
+            border-color: rgba(0, 0, 0, 0.5);
+            border-width: 1px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        .flex-container>div {
+            background-color: rgba(0, 0, 0, 0.5);
+            margin: 10px;
+            font-size: 30px;
+        }
+        
+        .tablink {
+            background-color: #555;
+            color: rgb(31, 31, 31);
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 10px 16px;
+            font-size: 17px;
+            width: 20%;
+        }
+        
+        .tablink:hover {
+            background-color: #777;
+        }
+        /* Style the tab content (and add height:100% for full page content) */
+        
+        .tabcontent {
+            color: white;
+            padding: 100px 20px;
+            height: 80%;
+            margin-top: 50px;
+            margin-bottom: 60px;
+            margin-right: 70px;
+        }
+        
+        #Home {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        #News {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        #Contact {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        #About {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        .sub {
+            width: 400px;
+            height: 20px;
+        }
+        
+        .container1 {
+            margin-top: 80px;
+            width: 150px;
+            margin-left: 20px;
+            margin-right: 50px;
+            height: 250px;
+            padding: 20px;
+            float: left;
+
+        }
+        
+        .container2 {
+            margin-top: 80px;
+            width: 150px;
+            margin-left: 20px;
+            margin-right: 20px;
+            height: 250px;
+            padding: 20px;
+            float: left;
+        }
+        
+        .container3 {
+            margin-top: 80px;
+            width: 150px;
+            margin-right: 70px;
+            height: 250px;
+            padding: 20px;
+            float: left;
+        }
+        
+        .h2 {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+.trans{
+margin: 30px;
+ background:rgba(100,100,100,0.5)
+
+
+}
